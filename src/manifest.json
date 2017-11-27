@@ -1,0 +1,22 @@
+{
+  "name": "Monica Parser",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "A Chrome extension to automatically add Facebook contacts to Monica",
+  "homepage_url": "https://monicahq.com/",
+  "icons": {
+    "48": "assets/icon.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_title": "browser action demo",
+    "default_popup": "popup.html"
+  }, 
+  "permissions": [
+    "cookies",
+    "https://*/*",
+    "tabs",
+    "activeTab"
+  ]
+}
